@@ -1,12 +1,16 @@
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { FaShoppingCart, FaUser } from "react-icons/fa";
+import logo from "../assets/logo.png";
 
 const Header = () => {
   return (
     <header>
       <Navbar bg="dark" variant="dark" expand="md" collapseOnSelect>
         <Container>
-          <Navbar.Brand href="/">Kasual Tricot 2026</Navbar.Brand>
+          <Navbar.Brand href="/">
+            {/* <img src={logo} alt="Kasual Tricot 2026" /> */}
+            Kasual Tricot 2026
+          </Navbar.Brand>
 
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
